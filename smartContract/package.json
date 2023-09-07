@@ -1,0 +1,16 @@
+{
+  "name": "dex",
+  "version": "1.0.0",
+  "description": "a simple dex using AMM uniswap v2",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hardhat": "^2.17.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0"
+  }
+}
