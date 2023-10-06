@@ -230,14 +230,14 @@ const GÖRLICoins = [
     address: "", // Weth address is fetched from the router
   },
   {
-    name: "Dai",
-    abbr: "DAI",
-    address: "0x73967c6a0904aa032c103b4104747e88c566b1a2",
+    name: "Ding",
+    abbr: "DNG",
+    address: "0x4FA32AbD37E3D440EdDEAC42A8d16A94E8E24E6E",
   },
   {
     name: "Tether USD",
     abbr: "USDT",
-    address: "0x509ee0d083ddf8ac028f2a56731412edd63223b9",
+    address: "0x7FC254B12c651E0aC7708fb830181441F838a54f",
   },
 ]
 const SEPOLIACoins = [

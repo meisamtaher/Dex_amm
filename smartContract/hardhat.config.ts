@@ -12,7 +12,7 @@ const config: HardhatUserConfig = {
       gasPrice: 1000000000,
     },
     'goerli':{
-      url: 'https://rpc.goerli.eth.gateway.fm',
+      url: 'https://eth-goerli.g.alchemy.com/v2/AnUP6UgLP1hi0_5HyiFk4H9MWnnoBvJZ',
       accounts: [process.env.WALLET_KEY as string],
       gasPrice: 1000000000,
     },
