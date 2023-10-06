@@ -6,6 +6,11 @@ const config: HardhatUserConfig = {
   solidity: "0.8.19",
   networks: {
     // for mainnet
+    'sepolia':{
+      url: 'https://eth-sepolia.g.alchemy.com/v2/uT32-cQ_Cns0riUDIkSyLuikSga4SAg4',
+      accounts: [process.env.WALLET_KEY as string],
+      gasPrice: 1000000000,
+    },
     'goerli':{
       url: 'https://rpc.goerli.eth.gateway.fm',
       accounts: [process.env.WALLET_KEY as string],
