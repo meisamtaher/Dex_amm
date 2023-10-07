@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Dex_amm/static/css/main.797d0e06.chunk.css",
-    "main.js": "/Dex_amm/static/js/main.b8d10ee3.chunk.js",
-    "main.js.map": "/Dex_amm/static/js/main.b8d10ee3.chunk.js.map",
+    "main.js": "/Dex_amm/static/js/main.c452486f.chunk.js",
+    "main.js.map": "/Dex_amm/static/js/main.c452486f.chunk.js.map",
     "runtime-main.js": "/Dex_amm/static/js/runtime-main.8ab37463.js",
     "runtime-main.js.map": "/Dex_amm/static/js/runtime-main.8ab37463.js.map",
     "static/css/2.7293bc6b.chunk.css": "/Dex_amm/static/css/2.7293bc6b.chunk.css",
@@ -13,13 +13,14 @@
     "index.html": "/Dex_amm/index.html",
     "static/css/2.7293bc6b.chunk.css.map": "/Dex_amm/static/css/2.7293bc6b.chunk.css.map",
     "static/css/main.797d0e06.chunk.css.map": "/Dex_amm/static/css/main.797d0e06.chunk.css.map",
-    "static/js/2.19342c13.chunk.js.LICENSE.txt": "/Dex_amm/static/js/2.19342c13.chunk.js.LICENSE.txt"
+    "static/js/2.19342c13.chunk.js.LICENSE.txt": "/Dex_amm/static/js/2.19342c13.chunk.js.LICENSE.txt",
+    "static/media/logo512.a4fa4a3f.png": "/Dex_amm/static/media/logo512.a4fa4a3f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8ab37463.js",
     "static/css/2.7293bc6b.chunk.css",
     "static/js/2.19342c13.chunk.js",
     "static/css/main.797d0e06.chunk.css",
-    "static/js/main.b8d10ee3.chunk.js"
+    "static/js/main.c452486f.chunk.js"
   ]
 }
