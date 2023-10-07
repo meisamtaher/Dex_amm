@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
-import { Grid, makeStyles, Paper, Typography } from "@material-ui/core";
-import AccountBalanceIcon from "@material-ui/icons/AccountBalance";
+import { Grid, Paper, Typography } from "@mui/material";
+import {makeStyles} from "@mui/styles"
+import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
 import { useSnackbar } from "notistack";
 import {
   getBalanceAndSymbol,

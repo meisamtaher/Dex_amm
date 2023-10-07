@@ -2,11 +2,10 @@ import React from "react";
 import {
   Container,
   Grid,
-  makeStyles,
   Paper,
   Typography,
-} from "@material-ui/core";
-
+} from "@mui/material";
+import {makeStyles} from "@mui/styles"
 import SwitchButton from "./SwitchButton";
 import LiquidityDeployer from "./LiquidityDeployer";
 import LiquidityRemover from "./RemoveLiquidity";

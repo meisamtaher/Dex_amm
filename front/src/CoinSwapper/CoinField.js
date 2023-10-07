@@ -1,8 +1,9 @@
 import React from "react";
-import { Fab, Grid, InputBase, makeStyles } from "@material-ui/core";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import { Fab, Grid, InputBase } from "@mui/material";
+import {makeStyles} from "@mui/styles"
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import PropTypes from "prop-types";
-import * as COLORS from "@material-ui/core/colors";
+import * as COLORS from "@mui/material/colors";
 
 const useStyles = makeStyles((theme) => ({
   container: {

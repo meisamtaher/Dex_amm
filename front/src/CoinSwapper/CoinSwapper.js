@@ -3,13 +3,13 @@ import {
   Container,
   Grid,
   IconButton,
-  makeStyles,
   Paper,
   Typography,
-} from "@material-ui/core";
-import SwapVerticalCircleIcon from "@material-ui/icons/SwapVerticalCircle";
+} from "@mui/material";
+import {makeStyles} from "@mui/styles"
+import SwapVerticalCircleIcon from "@mui/icons-material/SwapVerticalCircle";
 import { useSnackbar } from "notistack";
-import LoopIcon from "@material-ui/icons/Loop";
+import LoopIcon from "@mui/icons-material/Loop";
 import {
   getAccount,
   getFactory,

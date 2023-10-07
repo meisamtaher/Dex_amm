@@ -3,12 +3,11 @@ import {
   Dialog,
   Grid,
   IconButton,
-  makeStyles,
-  Typography,
-  withStyles,
-} from "@material-ui/core";
-import MuiDialogTitle from "@material-ui/core/DialogTitle";
-import CloseIcon from "@material-ui/icons/Close";
+  Typography
+} from "@mui/material";
+import {makeStyles} from "@mui/styles"
+import MuiDialogTitle from "@mui/material/DialogTitle";
+import CloseIcon from "@mui/icons-material/Close";
 
 const styles = (theme) => ({
   dialogContainer: {

@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { Contract, ethers } from "ethers";
-import { createTheme, ThemeProvider } from "@material-ui/core";
+import { createTheme, ThemeProvider } from "@mui/material";
 import { SnackbarProvider } from "notistack";
 import ConnectWalletPage from "./Components/connectWalletPage";
 import {

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
-import { Grid, makeStyles, Paper, Typography } from "@material-ui/core";
-import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward";
+import { Grid, Paper, Typography } from "@mui/material";
+import {makeStyles} from "@mui/styles";
+import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import { useSnackbar } from "notistack";
 import {
   getBalanceAndSymbol,

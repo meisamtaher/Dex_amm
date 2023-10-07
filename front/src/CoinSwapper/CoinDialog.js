@@ -4,18 +4,18 @@ import {
   Dialog,
   Grid,
   IconButton,
-  makeStyles,
   TextField,
   Typography,
-  withStyles,
-} from "@material-ui/core";
-import MuiDialogTitle from "@material-ui/core/DialogTitle";
-import MuiDialogActions from "@material-ui/core/DialogActions";
-import CloseIcon from "@material-ui/icons/Close";
+  
+} from "@mui/material";
+import {withStyles, makeStyles} from "@mui/styles"
+import MuiDialogTitle from "@mui/material/DialogTitle";
+import MuiDialogActions from "@mui/material/DialogActions";
+import CloseIcon from "@mui/icons-material/Close";
 import CoinButton from "./CoinButton";
 import { doesTokenExist } from "../ethereumFunctions";
 import PropTypes from "prop-types";
-import * as COLORS from "@material-ui/core/colors";
+import * as COLORS from "@mui/material/colors";
 
 const styles = (theme) => ({
   dialogContainer: {

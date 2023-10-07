@@ -1,7 +1,8 @@
 import React from "react";
-import { ButtonBase, Grid, makeStyles, Typography } from "@material-ui/core";
+import { ButtonBase, Grid, Typography } from "@material-ui/core";
+import {makeStyles} from "@mui/styles"
 import PropTypes from "prop-types";
-import * as COLORS from "@material-ui/core/colors";
+import * as COLORS from "@mui/material/colors";
 
 const useStyles = makeStyles((theme) => ({
   button: {
