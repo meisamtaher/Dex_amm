@@ -30,7 +30,7 @@
     "remark-gfm": "^1.0.0",
     "web-vitals": "^1.0.1"
   },
-  "homepage": "https://ben-haslam.github.io/Alternative-Uniswap-Interface/",
+  "homepage": "https://meisamtaher.github.io/dex_amm/",
   "scripts": {
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
