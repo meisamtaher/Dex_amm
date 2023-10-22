@@ -6,6 +6,16 @@ const config: HardhatUserConfig = {
   solidity: "0.8.19",
   networks: {
     // for mainnet
+    'scroll-sepolia':{
+      url: 'https://scroll-public.scroll-testnet.quiknode.pro',
+      accounts: [process.env.WALLET_KEY as string],
+      gasPrice: 1000000000,
+    },
+    'polygon-zkevm-test':{
+      url: 'https://polygonzkevm-testnet.g.alchemy.com/v2/NAM9u52_13bD1BUUZK1H3-jMcVX3pgR5',
+      accounts: [process.env.WALLET_KEY as string],
+      gasPrice: 1000000000,
+    },
     'sepolia':{
       url: 'https://eth-sepolia.g.alchemy.com/v2/uT32-cQ_Cns0riUDIkSyLuikSga4SAg4',
       accounts: [process.env.WALLET_KEY as string],
