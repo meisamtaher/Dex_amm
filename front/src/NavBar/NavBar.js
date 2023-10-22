@@ -13,7 +13,7 @@ class NavBar extends Component {
         <div className="Title">
           <h1 className="navbar-logo">
             <img src={logo} width={60} />
-            ezSWAP- hassle free trading platform
+            CircleChange - hassle free trading platform
           </h1>
         </div>
 

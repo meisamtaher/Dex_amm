@@ -49,7 +49,7 @@ function ConnectWalletPage() {
     <div>
       <div className="Title">
         <h1 className="navbar-logo">
-          ezSWAP - hassle free trading platform
+          CircleChange - hassle free trading platform 
         </h1>
       </div>
 
